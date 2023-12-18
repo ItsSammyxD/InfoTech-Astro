@@ -7,9 +7,17 @@
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "deploy":"gh-pages -d dist"
   },
   "dependencies": {
-    "astro": "^4.0.6"
+    "astro": "^4.0.6",
+    "gh-pages": "^6.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "eslint-plugin-astro": "^0.31.0",
+    "prettier": "^3.1.1",
+    "prettier-plugin-astro": "^0.12.2"
   }
 }
